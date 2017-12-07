@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.netease.qa.emmagee"
+    package="com.performance.test.mcn"
     android:versionCode="34"
     android:versionName="2.5.1" >
 
@@ -20,14 +20,14 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
 
     <application
-        android:name="com.netease.qa.emmagee.utils.MyApplication"
+        android:name="com.performance.test.mcn.utils.MyApplication"
         android:debuggable="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:testOnly="true"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
-            android:name="com.netease.qa.emmagee.activity.MainPageActivity"
+            android:name="com.performance.test.mcn.activity.MainPageActivity"
             android:configChanges="orientation|keyboardHidden"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" >
@@ -38,24 +38,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.netease.qa.emmagee.activity.SettingsActivity"
+            android:name="com.performance.test.mcn.activity.SettingsActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:theme="@style/customTheme" />
         <activity
-            android:name="com.netease.qa.emmagee.activity.AboutActivity"
+            android:name="com.performance.test.mcn.activity.AboutActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.qa.emmagee.activity.MailSettingsActivity"
+            android:name="com.performance.test.mcn.activity.MailSettingsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.qa.emmagee.activity.TestListActivity"
+            android:name="com.performance.test.mcn.activity.TestListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.netease.qa.emmagee.activity.TestReportActivity"
+            android:name="com.performance.test.mcn.activity.TestReportActivity"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.netease.qa.emmagee.service.EmmageeService" />
+        <service android:name="com.performance.test.mcn.service.EmmageeService" />
     </application>
 
 </manifest>

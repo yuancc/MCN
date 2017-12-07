@@ -1,1 +1,1 @@
-[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":34},"path":"AndroidManifest.xml","properties":{"packageId":"com.netease.qa.emmagee","split":"","minSdkVersion":"8"}}]
+[{"outputType":{"type":"INSTANT_RUN_MERGED_MANIFESTS"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":34},"path":"AndroidManifest.xml","properties":{"packageId":"com.performance.test.mcn","split":"","minSdkVersion":"8"}}]
