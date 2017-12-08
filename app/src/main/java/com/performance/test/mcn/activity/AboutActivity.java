@@ -37,7 +37,7 @@ import android.widget.TextView;
  */
 public class AboutActivity extends Activity {
 
-	private static final String LOG_TAG = "Emmagee-"
+	private static final String LOG_TAG = "MCU-"
 			+ AboutActivity.class.getSimpleName();
 
 	private TextView appVersion;

@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.performance.test.mcn"
     android:versionCode="34"
-    android:versionName="2.5.1" >
+    android:versionName="V1.0.0" >
 
     <uses-sdk android:minSdkVersion="8" />
 
@@ -40,7 +40,7 @@
             android:name="com.performance.test.mcn.activity.TestReportActivity"
             android:screenOrientation="portrait" />
 
-        <service android:name="com.performance.test.mcn.service.EmmageeService" />
+        <service android:name="com.performance.test.mcn.service.BaseService" />
     </application>
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />

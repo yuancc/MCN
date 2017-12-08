@@ -20,7 +20,7 @@ import java.io.IOException;
 import java.util.List;
 
 import com.performance.test.mcn.R;
-import com.performance.test.mcn.service.EmmageeService;
+import com.performance.test.mcn.service.BaseService;
 import com.performance.test.mcn.utils.ProcessInfo;
 import com.performance.test.mcn.utils.Programe;
 import com.performance.test.mcn.utils.Settings;
@@ -92,7 +92,7 @@ public class MainPageActivity extends Activity {
 			public void onClick(View v) {
 				if (Build.VERSION.SDK_INT < 24) {
 					monitorService = new Intent();
-					monitorService.setClass(MainPageActivity.this, EmmageeService.class);
+					monitorService.setClass(MainPageActivity.this, BaseService.class);
 					if (getString(R.string.start_test).equals(btnTest.getText().toString())) {
 						ListAdapter adapter = (ListAdapter) lstViProgramme.getAdapter();
 						if (adapter.checkedProg != null) {
@@ -128,7 +128,7 @@ public class MainPageActivity extends Activity {
 						}
 					} else {
 						btnTest.setText(getString(R.string.start_test));
-						Toast.makeText(MainPageActivity.this, getString(R.string.test_result_file_toast) + EmmageeService.resultFilePath,
+						Toast.makeText(MainPageActivity.this, getString(R.string.test_result_file_toast) + BaseService.resultFilePath,
 								Toast.LENGTH_LONG).show();
 						stopService(monitorService);
 					}
@@ -168,7 +168,7 @@ public class MainPageActivity extends Activity {
 		
 		receiver = new UpdateReceiver();
 		IntentFilter filter = new IntentFilter();
-		filter.addAction(EmmageeService.SERVICE_ACTION);
+		filter.addAction(BaseService.SERVICE_ACTION);
 		registerReceiver(receiver, filter);
 	}
 

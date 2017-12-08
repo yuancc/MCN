@@ -12,7 +12,7 @@ INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:5:5-32
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:5:5-33
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 	xmlns:android
@@ -99,10 +99,10 @@ ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:39
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:41:13-49
 	android:name
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:40:13-80
-service#com.performance.test.mcn.service.EmmageeService
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:9-83
+service#com.performance.test.mcn.service.BaseService
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:9-80
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:18-80
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:18-77
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:46:5-78
 	android:name

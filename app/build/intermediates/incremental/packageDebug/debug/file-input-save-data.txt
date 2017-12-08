@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Dec 07 19:26:55 CST 2017
+#Thu Dec 07 20:25:36 CST 2017
 5.base=/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/debug/resources-debug.ap_
 42.base=/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/debug/resources-debug.ap_
 32.set=ANDROID_RESOURCE

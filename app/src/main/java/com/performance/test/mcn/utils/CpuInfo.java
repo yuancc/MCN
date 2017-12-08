@@ -30,7 +30,7 @@ import java.util.Locale;
 import java.util.regex.Pattern;
 
 import com.performance.test.mcn.R;
-import com.performance.test.mcn.service.EmmageeService;
+import com.performance.test.mcn.service.BaseService;
 
 import android.content.Context;
 import android.os.Build;
@@ -158,7 +158,6 @@ public class CpuInfo {
 	/**
 	 * display directories naming with "cpu*"
 	 * 
-	 * @author andrewleo
 	 */
 	class CpuFilter implements FileFilter {
 		@Override
@@ -306,7 +305,7 @@ public class CpuInfo {
 						String[][] heapArray = MemoryInfo.getHeapSize(pid, context);
 						heapData = heapArray[0][1]+"/"+heapArray[0][0]+Constants.COMMA+heapArray[1][1]+"/"+heapArray[1][0]+Constants.COMMA;
 					}
-					EmmageeService.bw.write(mDateTime2 + Constants.COMMA + ProcessInfo.getTopActivity(context) + Constants.COMMA +heapData+ pMemory
+					BaseService.bw.write(mDateTime2 + Constants.COMMA + ProcessInfo.getTopActivity(context) + Constants.COMMA +heapData+ pMemory
 							+ Constants.COMMA + percent + Constants.COMMA + fMemory + Constants.COMMA + processCpuRatio + Constants.COMMA
 							+ totalCpuBuffer.toString() + trafValue + Constants.COMMA + totalBatt + Constants.COMMA + currentBatt + Constants.COMMA
 							+ temperature + Constants.COMMA + voltage + Constants.COMMA + fps + Constants.LINE_END);

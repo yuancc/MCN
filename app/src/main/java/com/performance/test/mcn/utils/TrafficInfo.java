@@ -29,7 +29,7 @@ import android.util.Log;
  */
 public class TrafficInfo {
 
-	private static final String LOG_TAG = "Emmagee-" + TrafficInfo.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + TrafficInfo.class.getSimpleName();
 	private static final int UNSUPPORTED = -1;
 
 	private String uid;
