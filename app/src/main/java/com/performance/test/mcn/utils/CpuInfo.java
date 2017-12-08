@@ -315,6 +315,8 @@ public class CpuInfo {
 					cpuUsedRatio.add(processCpuRatio);
 					cpuUsedRatio.add(totalCpuRatio.get(0));
 					cpuUsedRatio.add(String.valueOf(traffic));
+					cpuUsedRatio.add(String.valueOf(trafficInfo.getUpStream()));//追加上下行网络
+					cpuUsedRatio.add(String.valueOf(trafficInfo.getDownStream()));
 				}
 			}
 		} catch (IOException e) {

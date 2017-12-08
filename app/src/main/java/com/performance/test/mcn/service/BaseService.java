@@ -134,7 +134,7 @@ public class BaseService extends Service {
 	public static boolean isStop = false;
 
 	private String totalBatt;
-	private String temperature;
+//	private String temperature;
 	private String voltage;
 	private CurrentInfo currentInfo;
 	private FpsInfo fpsInfo;
@@ -152,6 +152,20 @@ public class BaseService extends Service {
 
 	private Timer mHeartBeatTimer;
 	private TimerTask mStaticTimerTask;
+
+	//摘出统计上报字段以便统计
+	private String processCpuRatio = "0.00";
+	private String totalCpuRatio = "0.00";
+	private String trafficSize = "0";
+	private String upstream = "0";
+	private String dowmstream = "0";
+	private String temperature = "0";
+	private String electricity = "0";
+	private String freeMemoryKb;
+	private String processMemory;
+	private String currentBatt;
+
+	private boolean isdataRefresh = false;
 
 	@Override
 	public void onCreate() {
@@ -434,12 +448,17 @@ public class BaseService extends Service {
 	public void sendStatistics(){
 		long currenttime = System.currentTimeMillis();
 		try {
+			if(!isdataRefresh){
+				return;
+			}
 			URL urlTest;
 			String url = ServerAdress.mStatisticsAdress;
 			urlTest = new URL(url);
 			JSONObject jsonObject = new JSONObject();
 			jsonObject.put("udid", R.string.statistic_name);
 			jsonObject.put("time",currenttime);
+			jsonObject.put("processCpuRatio",processCpuRatio);
+			jsonObject.put("totalCpuRatio",totalCpuRatio);
 
 			String content = jsonObject.toString();
 			HttpURLConnection conn = (HttpURLConnection) urlTest.openConnection();
@@ -554,11 +573,12 @@ public class BaseService extends Service {
 	 * @throws IOException
 	 */
 	private void dataRefresh() {
+		isdataRefresh = true;
 		int pidMemory = memoryInfo.getPidMemorySize(pid, getBaseContext());
 		long freeMemory = memoryInfo.getFreeMemorySize(getBaseContext());
-		String freeMemoryKb = fomart.format((double) freeMemory / 1024);
-		String processMemory = fomart.format((double) pidMemory / 1024);
-		String currentBatt = String.valueOf(currentInfo.getCurrentValue());
+		freeMemoryKb = fomart.format((double) freeMemory / 1024);
+		processMemory = fomart.format((double) pidMemory / 1024);
+		currentBatt = String.valueOf(currentInfo.getCurrentValue());
 		// 异常数据过滤
 		try {
 			if (Math.abs(Double.parseDouble(currentBatt)) >= 500) {
@@ -571,9 +591,9 @@ public class BaseService extends Service {
 				currentBatt, temperature, voltage,
 				String.valueOf(fpsInfo.fps()), isRoot);
 		if (isFloating) {
-			String processCpuRatio = "0.00";
-			String totalCpuRatio = "0.00";
-			String trafficSize = "0";
+//			String processCpuRatio = "0.00";
+//			String totalCpuRatio = "0.00";
+//			String trafficSize = "0";
 			long tempTraffic = 0L;
 			double trafficMb = 0;
 			boolean isMb = false;
@@ -581,6 +601,8 @@ public class BaseService extends Service {
 				processCpuRatio = processInfo.get(0);
 				totalCpuRatio = processInfo.get(1);
 				trafficSize = processInfo.get(2);
+				upstream = processInfo.get(3);
+				dowmstream = processInfo.get(4);
 				if (!(BLANK_STRING.equals(trafficSize))
 						&& !("-1".equals(trafficSize))) {
 					tempTraffic = Long.parseLong(trafficSize);

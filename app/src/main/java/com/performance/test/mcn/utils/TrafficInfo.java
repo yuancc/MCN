@@ -34,6 +34,8 @@ public class TrafficInfo {
 
 	private String uid;
 
+	private long upStream;
+	private long downStream;
 	public TrafficInfo(String uid) {
 		this.uid = uid;
 	}
@@ -78,7 +80,9 @@ public class TrafficInfo {
 			rafRcv = new RandomAccessFile(rcvPath, "r");
 			rafSnd = new RandomAccessFile(sndPath, "r");
 			rcvTraffic = Long.parseLong(rafRcv.readLine());
+			downStream = rcvTraffic;
 			sndTraffic = Long.parseLong(rafSnd.readLine());
+			upStream = sndTraffic;
 			Log.d(LOG_TAG, String.format("rcvTraffic, sndTraffic = %s, %s", rcvTraffic, sndTraffic));
 		} catch (Exception e) {
 		} 
@@ -93,5 +97,11 @@ public class TrafficInfo {
 		}
 		return rcvTraffic + sndTraffic < 0 ? UNSUPPORTED : rcvTraffic + sndTraffic;
 	}
+	public long getUpStream() {
+		return upStream;
+	}
 
+	public long getDownStream() {
+		return downStream;
+	}
 }
