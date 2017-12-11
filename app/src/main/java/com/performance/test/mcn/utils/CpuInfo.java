@@ -39,7 +39,6 @@ import android.util.Log;
 /**
  * operate CPU information
  * 
- * @author andrewleo
  */
 public class CpuInfo {
 

@@ -39,13 +39,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Mail Setting Page of Emmagee
- * 
- * @author andrewleo
+ * Mail Setting Page of MCN
+ *
  */
 public class MailSettingsActivity extends Activity {
 
-	private static final String LOG_TAG = "Emmagee-" + MailSettingsActivity.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + MailSettingsActivity.class.getSimpleName();
 	private static final String BLANK_STRING = "";
 
 	private EditText edtRecipients;

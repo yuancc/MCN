@@ -40,6 +40,10 @@
         "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable-hdpi/right_arrow.png"
     },
     {
+        "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_stop_test.png.flat",
+        "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable-hdpi/stop_test.png"
+    },
+    {
         "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_test.png.flat",
         "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable-hdpi/btn_test.png"
     },
@@ -122,6 +126,10 @@
     {
         "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/layout_table_row.xml.flat",
         "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/layout/table_row.xml"
+    },
+    {
+        "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_start_test.png.flat",
+        "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable-hdpi/start_test.png"
     },
     {
         "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_btn_back.png.flat",

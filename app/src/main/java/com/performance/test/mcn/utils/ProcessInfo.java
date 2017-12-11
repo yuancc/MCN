@@ -35,7 +35,6 @@ import android.util.Log;
 /**
  * get information of processes
  * 
- * @author andrewleo
  */
 public class ProcessInfo {
 

@@ -2,8 +2,7 @@ package com.performance.test.mcn.utils;
 
 /**
  * Constant Class
- * 
- * @author andrewleo
+ *
  * 
  */
 public final class Constants {

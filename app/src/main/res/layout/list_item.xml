@@ -4,10 +4,7 @@
     android:layout_height="fill_parent"
     android:orientation="horizontal" >
 
-    <RadioButton
-        android:id="@+id/rb"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 
     <ImageView
         android:id="@+id/image"
@@ -22,12 +19,17 @@
 
     <TextView
         android:id="@+id/text"
-        android:layout_width="fill_parent"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:textSize="18sp"
-        android:textColor="#5B5B5B"
+        android:textColor="#00BBFF"
         android:singleLine="true"
-        android:ellipsize="end"
+        android:ellipsize="middle"
         android:gravity="center_vertical"/>
 
+    <RadioButton
+        android:id="@+id/rb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"/>
 </LinearLayout>

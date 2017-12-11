@@ -25,7 +25,6 @@ import android.util.Log;
 /**
  * information of network traffic
  * 
- * @author andrewleo
  */
 public class TrafficInfo {
 

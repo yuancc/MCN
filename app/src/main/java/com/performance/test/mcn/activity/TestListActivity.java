@@ -42,12 +42,11 @@ import android.widget.TextView;
 
 /**
  * Test Report
- * 
- * @author andrewleo
+ *
  */
 public class TestListActivity extends Activity {
 
-	private static final String LOG_TAG = "Emmagee-"
+	private static final String LOG_TAG = "MCN-"
 			+ TestListActivity.class.getSimpleName();
 	static final String CSV_PATH_KEY = "csvPath";
 

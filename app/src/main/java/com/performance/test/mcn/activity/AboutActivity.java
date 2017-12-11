@@ -32,8 +32,7 @@ import android.widget.TextView;
 
 /**
  * About Page of Emmagee
- * 
- * @author andrewleo
+ *
  */
 public class AboutActivity extends Activity {
 

@@ -7,8 +7,7 @@ import android.preference.PreferenceManager;
 /**
  * Parameters in Setting Activity
  * 
- * @author yrom
- * 
+ *
  */
 public final class Settings {
 

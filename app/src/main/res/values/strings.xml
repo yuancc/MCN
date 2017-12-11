@@ -92,4 +92,5 @@
 	<string name="wake_lock_on_toast">WakeLock is on，screen will stay awake</string>
 	<string name="test_report">Test Reports</string>
     <string name="statistic_name">Android performance test</string>
+    <string name="choose_app_to_test">Choose one app to test</string>
 </resources>

@@ -6,7 +6,6 @@ import javax.mail.PasswordAuthentication;
 /**
  * Customized Authenticator
  * 
- * @author andrewleo
  */
 public class CustomizedAuthenticator extends Authenticator {
 	String userName = null;

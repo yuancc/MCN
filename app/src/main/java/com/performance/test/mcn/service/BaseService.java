@@ -283,7 +283,7 @@ public class BaseService extends Service {
 		createResultCsv();
 		handler.postDelayed(task, 1000);
 		mSendName = getSendName();
-		startSendStatisticTask(delaytime);
+//		startSendStatisticTask(delaytime);//开启上传统计任务
 		return START_NOT_STICKY;
 	}
 
@@ -703,7 +703,7 @@ public class BaseService extends Service {
 			viFloatingWindow = null;
 		}
 		handler.removeCallbacks(task);
-		mSendTimer.cancel();//停止上报
+//		mSendTimer.cancel();//停止上报
 		closeOpenedStream();
 		// replace the start time in file
 		if (!BLANK_STRING.equals(startTime)) {

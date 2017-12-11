@@ -22,7 +22,6 @@ import android.graphics.drawable.Drawable;
  * details of installed processes ,including
  * icon,packagename,pid,uid,processname
  * 
- * @author andrewleo
  */
 public class Programe implements Comparable<Programe> {
 	private Drawable icon;

@@ -39,13 +39,12 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 /**
- * About Page of Emmagee
- * 
- * @author andrewleo
+ * About Page of MCN
+ *
  */
 public class TestReportActivity extends Activity {
 
-	private static final String LOG_TAG = "Emmagee-" + TestReportActivity.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + TestReportActivity.class.getSimpleName();
 	private TableLayout tl;
 	
 	@Override

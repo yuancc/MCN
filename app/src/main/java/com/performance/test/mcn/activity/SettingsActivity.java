@@ -40,13 +40,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Setting Page of Emmagee
- * 
- * @author andrewleo
+ * Setting Page of MCN
+ *
  */
 public class SettingsActivity extends Activity {
 
-	private static final String LOG_TAG = "Emmagee-" + SettingsActivity.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + SettingsActivity.class.getSimpleName();
 
 	private CheckBox chkFloat;
 	private CheckBox chkRoot;

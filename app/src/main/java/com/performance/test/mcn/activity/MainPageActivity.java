@@ -44,17 +44,18 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.RadioButton;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 /**
  * Main Page of Emmagee
- * 
- * @author andrewleo
+ *
  */
 public class MainPageActivity extends Activity {
 
@@ -65,7 +66,7 @@ public class MainPageActivity extends Activity {
 	private ProcessInfo processInfo;
 	private Intent monitorService;
 	private ListView lstViProgramme;
-	private Button btnTest;
+	private ImageButton btnTest;
 	private int pid, uid;
 	private boolean isServiceStop = false;
 	private UpdateReceiver receiver;
@@ -76,6 +77,7 @@ public class MainPageActivity extends Activity {
 	private LinearLayout layBtnSet;
 	private Long mExitTime = (long) 0;
 	private ListAdapter la;
+	private boolean isStarted = false;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -93,7 +95,9 @@ public class MainPageActivity extends Activity {
 				if (Build.VERSION.SDK_INT < 24) {
 					monitorService = new Intent();
 					monitorService.setClass(MainPageActivity.this, BaseService.class);
-					if (getString(R.string.start_test).equals(btnTest.getText().toString())) {
+//					if (getString(R.string.start_test).equals(btnTest.getText().toString())) {
+					if (!isStarted) {
+						isStarted = true;
 						ListAdapter adapter = (ListAdapter) lstViProgramme.getAdapter();
 						if (adapter.checkedProg != null) {
 							String packageName = adapter.checkedProg.getPackageName();
@@ -122,12 +126,15 @@ public class MainPageActivity extends Activity {
 							monitorService.putExtra("startActivity", startActivity);
 							startService(monitorService);
 							isServiceStop = false;
-							btnTest.setText(getString(R.string.stop_test));
+//							btnTest.setText(getString(R.string.stop_test));
+							btnTest.setImageResource(R.drawable.stop_test);
 						} else {
 							Toast.makeText(MainPageActivity.this, getString(R.string.choose_app_toast), Toast.LENGTH_LONG).show();
 						}
 					} else {
-						btnTest.setText(getString(R.string.start_test));
+//						btnTest.setText(getString(R.string.start_test));
+						btnTest.setImageResource(R.drawable.start_test);
+						isStarted = false;
 						Toast.makeText(MainPageActivity.this, getString(R.string.test_result_file_toast) + BaseService.resultFilePath,
 								Toast.LENGTH_LONG).show();
 						stopService(monitorService);
@@ -143,12 +150,13 @@ public class MainPageActivity extends Activity {
 		lstViProgramme.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-				RadioButton rdBtn = (RadioButton) ((LinearLayout) view).getChildAt(0);
+				RadioButton rdBtn = (RadioButton) ((LinearLayout) view).getChildAt(2);
+//				RadioButton rdBtn = (RadioButton) ((RelativeLayout) view).getChildAt(2);
 				rdBtn.setChecked(true);
 			}
 		});
 
-		nbTitle.setText(getString(R.string.app_name));
+		nbTitle.setText(getString(R.string.choose_app_to_test));
 		ivGoBack.setImageResource(R.drawable.refresh);
 		ivBtnSet.setImageResource(R.drawable.settings_button);
 		layBtnSet.setOnClickListener(new OnClickListener() {
@@ -177,7 +185,7 @@ public class MainPageActivity extends Activity {
 		nbTitle = (TextView) findViewById(R.id.nb_title);
 		ivBtnSet = (ImageView) findViewById(R.id.btn_set);
 		lstViProgramme = (ListView) findViewById(R.id.processList);
-		btnTest = (Button) findViewById(R.id.test);
+		btnTest = (ImageButton) findViewById(R.id.test);
 		layBtnSet = (LinearLayout) findViewById(R.id.lay_btn_set);
 	}
 	
@@ -201,7 +209,8 @@ public class MainPageActivity extends Activity {
 		public void onReceive(Context context, Intent intent) {
 			isServiceStop = intent.getExtras().getBoolean("isServiceStop");
 			if (isServiceStop) {
-				btnTest.setText(getString(R.string.start_test));
+//				btnTest.setText(getString(R.string.start_test));
+				btnTest.setImageResource(R.drawable.start_test);
 			}
 		}
 	}
@@ -217,7 +226,8 @@ public class MainPageActivity extends Activity {
 		super.onResume();
 		Log.d(LOG_TAG, "onResume");
 		if (isServiceStop) {
-			btnTest.setText(getString(R.string.start_test));
+//			btnTest.setText(getString(R.string.start_test));
+			btnTest.setImageResource(R.drawable.start_test);
 		}
 	}
 
