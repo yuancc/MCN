@@ -39,7 +39,7 @@ import android.util.Log;
  */
 public class ProcessInfo {
 
-	private static final String LOG_TAG = "Emmagee-"
+	private static final String LOG_TAG = "MCN-"
 			+ ProcessInfo.class.getSimpleName();
 
 	private static final String PACKAGE_NAME = "com.netease.qa.emmagee";

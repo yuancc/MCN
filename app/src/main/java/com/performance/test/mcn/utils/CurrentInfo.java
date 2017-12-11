@@ -13,11 +13,11 @@ import android.util.Log;
 /**
  * Current info
  * 
- * @author andrewleo
+ * @author mcn
  * 
  */
 public class CurrentInfo {
-	private static final String LOG_TAG = "Emmagee-CurrentInfo";
+	private static final String LOG_TAG = "MCN-CurrentInfo";
 	private static final String BUILD_MODEL = Build.MODEL.toLowerCase(Locale.ENGLISH);
 	private static final String I_MBAT = "I_MBAT: ";
 	private static final String CURRENT_NOW = "/sys/class/power_supply/battery/current_now";

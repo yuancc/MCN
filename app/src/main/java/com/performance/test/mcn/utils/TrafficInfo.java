@@ -52,7 +52,13 @@ public class TrafficInfo {
 		long traffic = trafficFromApi();
 		return traffic <= 0 ? trafficFromFiles() : traffic;
 	}
+	public long getUpStream() {
+		return upStream;
+	}
 
+	public long getDownStream() {
+		return downStream;
+	}
 	/**
 	 * Use TrafficStats getUidRxBytes and getUidTxBytes to get network
 	 * traffic,these API return both tcp and udp usage
@@ -62,7 +68,9 @@ public class TrafficInfo {
 	private long trafficFromApi() {
 		long rcvTraffic = UNSUPPORTED, sndTraffic = UNSUPPORTED;
 		rcvTraffic = TrafficStats.getUidRxBytes(Integer.parseInt(uid));
+		downStream = rcvTraffic;
 		sndTraffic = TrafficStats.getUidTxBytes(Integer.parseInt(uid));
+		upStream = sndTraffic;
 		return rcvTraffic + sndTraffic < 0 ? UNSUPPORTED : rcvTraffic + sndTraffic;
 	}
 
@@ -97,11 +105,5 @@ public class TrafficInfo {
 		}
 		return rcvTraffic + sndTraffic < 0 ? UNSUPPORTED : rcvTraffic + sndTraffic;
 	}
-	public long getUpStream() {
-		return upStream;
-	}
 
-	public long getDownStream() {
-		return downStream;
-	}
 }

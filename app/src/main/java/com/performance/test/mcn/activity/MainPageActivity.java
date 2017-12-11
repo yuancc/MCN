@@ -58,7 +58,7 @@ import android.widget.Toast;
  */
 public class MainPageActivity extends Activity {
 
-	private static final String LOG_TAG = "Emmagee-" + MainPageActivity.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + MainPageActivity.class.getSimpleName();
 
 	private static final int TIMEOUT = 20000;
 

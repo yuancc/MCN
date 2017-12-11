@@ -43,7 +43,7 @@ import android.util.Log;
  */
 public class CpuInfo {
 
-	private static final String LOG_TAG = "Emmagee-" + CpuInfo.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + CpuInfo.class.getSimpleName();
 
 	private Context context;
 	private long processCpu;
@@ -56,6 +56,15 @@ public class CpuInfo {
 	private long preTraffic;
 	private long lastestTraffic;
 	private long traffic;
+
+	private long preUpStream;
+	private long lastestUpStream;
+	private long upStream;
+
+	private long preDownStream;
+	private long lastestDownStream;
+	private long downStream;
+
 	private TrafficInfo trafficInfo;
 	private ArrayList<String> cpuUsedRatio = new ArrayList<String>();
 	private ArrayList<Long> totalCpu2 = new ArrayList<Long>();
@@ -246,17 +255,25 @@ public class CpuInfo {
 				mDateTime2 = formatterFile.format(cal.getTime().getTime());
 			if (isInitialStatics) {
 				preTraffic = trafficInfo.getTrafficInfo();
+				preUpStream = trafficInfo.getUpStream();
+				preDownStream = trafficInfo.getDownStream();
 				isInitialStatics = false;
 			} else {
 				lastestTraffic = trafficInfo.getTrafficInfo();
+				lastestUpStream = trafficInfo.getUpStream();
+				lastestDownStream = trafficInfo.getDownStream();
 				if (preTraffic == -1)
 					traffic = -1;
 				else {
 					if (lastestTraffic > preTraffic) {
 						traffic += (lastestTraffic - preTraffic + 1023) / 1024;
+						upStream = (lastestUpStream - preUpStream + 1023) / 1024;
+						downStream = (lastestDownStream - preDownStream + 1023) / 1024;
 					}
 				}
 				preTraffic = lastestTraffic;
+				preUpStream = lastestUpStream;
+				preDownStream = lastestDownStream;
 				Log.d(LOG_TAG, "lastestTraffic===" + lastestTraffic);
 				Log.d(LOG_TAG, "preTraffic===" + preTraffic);
 				StringBuffer totalCpuBuffer = new StringBuffer();
@@ -315,8 +332,10 @@ public class CpuInfo {
 					cpuUsedRatio.add(processCpuRatio);
 					cpuUsedRatio.add(totalCpuRatio.get(0));
 					cpuUsedRatio.add(String.valueOf(traffic));
-					cpuUsedRatio.add(String.valueOf(trafficInfo.getUpStream()));//追加上下行网络
-					cpuUsedRatio.add(String.valueOf(trafficInfo.getDownStream()));
+					cpuUsedRatio.add(String.valueOf(upStream));
+					cpuUsedRatio.add(String.valueOf(downStream));
+//					cpuUsedRatio.add(String.valueOf(trafficInfo.getUpStream()));//追加上下行网络
+//					cpuUsedRatio.add(String.valueOf(trafficInfo.getDownStream()));
 				}
 			}
 		} catch (IOException e) {

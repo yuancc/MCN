@@ -28,6 +28,7 @@ import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.sql.Date;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.SimpleDateFormat;
@@ -68,6 +69,7 @@ import android.os.BatteryManager;
 import android.os.Handler;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
+import android.text.format.Time;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -92,7 +94,7 @@ import static android.content.ContentValues.TAG;
  */
 public class BaseService extends Service {
 
-	private final static String LOG_TAG = "Emmagee-"
+	private final static String LOG_TAG = "MCN-"
 			+ BaseService.class.getSimpleName();
 
 	private static final String BLANK_STRING = "";
@@ -150,21 +152,22 @@ public class BaseService extends Service {
 	public static final String SERVICE_ACTION = "com.netease.action.BaseService";
 	private static final String BATTERY_CHANGED = "android.intent.action.BATTERY_CHANGED";
 
-	private Timer mHeartBeatTimer;
-	private TimerTask mStaticTimerTask;
+	private Timer mSendTimer;
+	private TimerTask mSendStatisticTimerTask;
 
 	//摘出统计上报字段以便统计
 	private String processCpuRatio = "0.00";
 	private String totalCpuRatio = "0.00";
-	private String trafficSize = "0";
-	private String upstream = "0";
-	private String dowmstream = "0";
+	private String allStream = "0";
+	private String upStream = "0";
+	private String downStream = "0";
 	private String temperature = "0";
-	private String electricity = "0";
 	private String freeMemoryKb;
 	private String processMemory;
-	private String currentBatt;
+	private String electricity;//电量
+	private String currentBatt;//电流
 
+	private String mSendName;
 	private boolean isdataRefresh = false;
 
 	@Override
@@ -185,6 +188,7 @@ public class BaseService extends Service {
 		currentInfo = new CurrentInfo();
 		statusBarHeight = getStatusBarHeight();
 		batteryBroadcast = new BatteryInfoBroadcastReceiver();
+//		mSendName = getSendName();
 		registerReceiver(batteryBroadcast, new IntentFilter(BATTERY_CHANGED));
 	}
 
@@ -231,6 +235,7 @@ public class BaseService extends Service {
 		processName = intent.getExtras().getString("processName");
 		packageName = intent.getExtras().getString("packageName");
 		startActivity = intent.getExtras().getString("startActivity");
+		mSendName = "MCN"+ String.format(Time.getCurrentTimezone(), "");
 
 		try {
 			PackageManager pm = getPackageManager();
@@ -277,6 +282,7 @@ public class BaseService extends Service {
 		}
 		createResultCsv();
 		handler.postDelayed(task, 1000);
+		mSendName = getSendName();
 		startSendStatisticTask(delaytime);
 		return START_NOT_STICKY;
 	}
@@ -455,10 +461,17 @@ public class BaseService extends Service {
 			String url = ServerAdress.mStatisticsAdress;
 			urlTest = new URL(url);
 			JSONObject jsonObject = new JSONObject();
-			jsonObject.put("udid", R.string.statistic_name);
-			jsonObject.put("time",currenttime);
-			jsonObject.put("processCpuRatio",processCpuRatio);
-			jsonObject.put("totalCpuRatio",totalCpuRatio);
+			jsonObject.put("udid", mSendName);
+			jsonObject.put("time", currenttime);
+			jsonObject.put("processCpuRatio(%)",processCpuRatio);
+			jsonObject.put("totalCpuRatio(%)",totalCpuRatio);
+			jsonObject.put("allStream(KB)",allStream);
+			jsonObject.put("upStream(KB)", upStream);
+			jsonObject.put("downStream(KB)", downStream);
+			jsonObject.put("temperature(C)", temperature);
+			jsonObject.put("electricity(%)", totalBatt);
+			jsonObject.put("freeMemory(MB)",freeMemoryKb);
+			jsonObject.put("processMemory(MB)",processMemory);
 
 			String content = jsonObject.toString();
 			HttpURLConnection conn = (HttpURLConnection) urlTest.openConnection();
@@ -486,9 +499,9 @@ public class BaseService extends Service {
 	}
 
 	public void startSendStatisticTask(long period){
-		mStaticTimerTask = new SendStatisticTask();
-		mHeartBeatTimer = new Timer();
-		mHeartBeatTimer.schedule(mStaticTimerTask,0,period);
+		mSendStatisticTimerTask = new SendStatisticTask();
+		mSendTimer = new Timer();
+		mSendTimer.schedule(mSendStatisticTimerTask,0,period);
 		Log.i(TAG, "start send sttistic task");
 	}
 
@@ -593,19 +606,19 @@ public class BaseService extends Service {
 		if (isFloating) {
 //			String processCpuRatio = "0.00";
 //			String totalCpuRatio = "0.00";
-//			String trafficSize = "0";
+//			String allStream = "0";
 			long tempTraffic = 0L;
 			double trafficMb = 0;
 			boolean isMb = false;
 			if (!processInfo.isEmpty()) {
 				processCpuRatio = processInfo.get(0);
 				totalCpuRatio = processInfo.get(1);
-				trafficSize = processInfo.get(2);
-				upstream = processInfo.get(3);
-				dowmstream = processInfo.get(4);
-				if (!(BLANK_STRING.equals(trafficSize))
-						&& !("-1".equals(trafficSize))) {
-					tempTraffic = Long.parseLong(trafficSize);
+				allStream = processInfo.get(2);
+				upStream = processInfo.get(3);
+				downStream = processInfo.get(4);
+				if (!(BLANK_STRING.equals(allStream))
+						&& !("-1".equals(allStream))) {
+					tempTraffic = Long.parseLong(allStream);
 					if (tempTraffic > 1024) {
 						isMb = true;
 						trafficMb = (double) tempTraffic / 1024;
@@ -618,7 +631,7 @@ public class BaseService extends Service {
 					txtTotalMem.setText(getString(R.string.process_overall_cpu)
 							+ processCpuRatio + "%/" + totalCpuRatio + "%");
 					String batt = getString(R.string.current) + currentBatt;
-					if ("-1".equals(trafficSize)) {
+					if ("-1".equals(allStream)) {
 						txtTraffic.setText(batt + Constants.COMMA
 								+ getString(R.string.traffic) + Constants.NA);
 					} else if (isMb)
@@ -627,7 +640,7 @@ public class BaseService extends Service {
 								+ fomart.format(trafficMb) + "MB");
 					else
 						txtTraffic.setText(batt + Constants.COMMA
-								+ getString(R.string.traffic) + trafficSize
+								+ getString(R.string.traffic) + allStream
 								+ "KB");
 				}
 				// 当内存为0切cpu使用率为0时则是被测应用退出
@@ -690,7 +703,7 @@ public class BaseService extends Service {
 			viFloatingWindow = null;
 		}
 		handler.removeCallbacks(task);
-		mHeartBeatTimer.cancel();//停止上报
+		mSendTimer.cancel();//停止上报
 		closeOpenedStream();
 		// replace the start time in file
 		if (!BLANK_STRING.equals(startTime)) {
@@ -778,5 +791,11 @@ public class BaseService extends Service {
 		return null;
 	}
 
+	private String getSendName(){
+		long time = System.currentTimeMillis();
+		SimpleDateFormat mTimeFormat = new SimpleDateFormat("MM-dd HH:mm:ss");
+		Date currenttime = new Date(time);
+		return "MCN " + mTimeFormat.format(currenttime);
+	}
 
 }
