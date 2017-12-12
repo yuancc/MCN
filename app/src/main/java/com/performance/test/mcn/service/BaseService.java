@@ -106,15 +106,16 @@ public class BaseService extends Service {
 	private float mTouchStartY;
 	private float x;
 	private float y;
-	private TextView txtTotalMem;
-	private TextView txtUnusedMem;
-	private TextView txtTraffic;
-	private Button btnStop;
-	private Button btnWifi;
+	private TextView txtCpuUsed;
+	private TextView txtMemUsed;
+	private TextView txtUpStream;
+	private TextView txtDownStream;
+//	private Button btnStop;
+//	private Button btnWifi;
 	private int delaytime;
 	private DecimalFormat fomart;
 	private MemoryInfo memoryInfo;
-	private WifiManager wifiManager;
+//	private WifiManager wifiManager;
 	private Handler handler = new Handler();
 	private CpuInfo cpuInfo;
 	private boolean isFloating;
@@ -170,9 +171,14 @@ public class BaseService extends Service {
 	private String mSendName;
 	private boolean isdataRefresh = false;
 
+	private static final int mColor = 0xFF0000FF;
+	private int width;
+	private int height;
+
 	@Override
 	public void onCreate() {
 		Log.i(LOG_TAG, "service onCreate");
+
 		super.onCreate();
 		isServiceStop = false;
 		isStop = false;
@@ -250,35 +256,41 @@ public class BaseService extends Service {
 		if (isFloating) {
 			viFloatingWindow = LayoutInflater.from(this).inflate(
 					R.layout.floating, null);
-			txtUnusedMem = (TextView) viFloatingWindow
-					.findViewById(R.id.memunused);
-			txtTotalMem = (TextView) viFloatingWindow
-					.findViewById(R.id.memtotal);
-			txtTraffic = (TextView) viFloatingWindow.findViewById(R.id.traffic);
-			btnWifi = (Button) viFloatingWindow.findViewById(R.id.wifi);
+			txtMemUsed = (TextView) viFloatingWindow.findViewById(R.id.memused);
+			txtCpuUsed = (TextView) viFloatingWindow.findViewById(R.id.cpuused);
+			txtUpStream = (TextView) viFloatingWindow.findViewById(R.id.upstreamused);
+			txtDownStream = (TextView) viFloatingWindow.findViewById(R.id.downstreamused);
+//			btnWifi = (Button) viFloatingWindow.findViewById(R.id.wifi);
 
-			wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-			if (wifiManager.isWifiEnabled()) {
-				btnWifi.setText(R.string.close_wifi);
-			} else {
-				btnWifi.setText(R.string.open_wifi);
-			}
-			txtUnusedMem.setText(getString(R.string.calculating));
-			txtUnusedMem.setTextColor(android.graphics.Color.RED);
-			txtTotalMem.setTextColor(android.graphics.Color.RED);
-			txtTraffic.setTextColor(android.graphics.Color.RED);
-			btnStop = (Button) viFloatingWindow.findViewById(R.id.stop);
-			btnStop.setOnClickListener(new OnClickListener() {
-				@Override
-				public void onClick(View v) {
-					Intent intent = new Intent();
-					intent.putExtra("isServiceStop", true);
-					intent.setAction(SERVICE_ACTION);
-					sendBroadcast(intent);
-					stopSelf();
-				}
-			});
-			createFloatingWindow();
+//			wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+//			if (wifiManager.isWifiEnabled()) {
+//				btnWifi.setText(R.string.close_wifi);
+//			} else {
+//				btnWifi.setText(R.string.open_wifi);
+//			}
+//			txtMemUsed.setText(getString(R.string.calculating));
+			txtMemUsed.setTextColor(mColor);
+			txtCpuUsed.setTextColor(mColor);
+			txtUpStream.setTextColor(mColor);
+			txtDownStream.setTextColor(mColor);
+//			btnStop = (Button) viFloatingWindow.findViewById(R.id.stop);
+//			btnStop.setOnClickListener(new OnClickListener() {
+//				@Override
+//				public void onClick(View v) {
+//					Intent intent = new Intent();
+//					intent.putExtra("isServiceStop", true);
+//					intent.setAction(SERVICE_ACTION);
+//					sendBroadcast(intent);
+//					stopSelf();
+//				}
+//			});
+			WindowManager wm = (WindowManager) this
+					.getSystemService(Context.WINDOW_SERVICE);
+			width = wm.getDefaultDisplay().getWidth();
+			height = wm.getDefaultDisplay().getHeight();
+			Log.i("get width",width+"  height: "+height);
+
+			createFloatingWindow(width,height);
 		}
 		createResultCsv();
 		handler.postDelayed(task, 1000);
@@ -380,7 +392,7 @@ public class BaseService extends Service {
 	/**
 	 * create a floating window to show real-time data.
 	 */
-	private void createFloatingWindow() {
+	private void createFloatingWindow(final int width, final int height) {
 		SharedPreferences shared = getSharedPreferences("float_flag",
 				Activity.MODE_PRIVATE);
 		SharedPreferences.Editor editor = shared.edit();
@@ -391,9 +403,11 @@ public class BaseService extends Service {
 		wmParams = ((MyApplication) getApplication()).getMywmParams();
 		wmParams.type = 2002;
 		wmParams.flags |= 8;
-		wmParams.gravity = Gravity.LEFT | Gravity.TOP;
+		wmParams.gravity = Gravity.CENTER;
+//		wmParams.gravity = Gravity.LEFT | Gravity.TOP;
 		wmParams.x = 0;
 		wmParams.y = 0;
+		Log.i("get x",wmParams.x+"  y: "+wmParams.y);
 		wmParams.width = WindowManager.LayoutParams.WRAP_CONTENT;
 		wmParams.height = WindowManager.LayoutParams.WRAP_CONTENT;
 		wmParams.format = 1;
@@ -408,10 +422,10 @@ public class BaseService extends Service {
 					mTouchStartY = event.getY();
 					break;
 				case MotionEvent.ACTION_MOVE:
-					updateViewPosition();
+					updateViewPosition(width,height);
 					break;
 				case MotionEvent.ACTION_UP:
-					updateViewPosition();
+					updateViewPosition(width,height);
 					mTouchStartX = mTouchStartY = 0;
 					break;
 				}
@@ -419,29 +433,29 @@ public class BaseService extends Service {
 			}
 		});
 
-		btnWifi.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
-				try {
-					btnWifi = (Button) viFloatingWindow.findViewById(R.id.wifi);
-					String buttonText = (String) btnWifi.getText();
-					String wifiText = getResources().getString(
-							R.string.open_wifi);
-					if (buttonText.equals(wifiText)) {
-						wifiManager.setWifiEnabled(true);
-						btnWifi.setText(R.string.close_wifi);
-					} else {
-						wifiManager.setWifiEnabled(false);
-						btnWifi.setText(R.string.open_wifi);
-					}
-				} catch (Exception e) {
-					Toast.makeText(viFloatingWindow.getContext(),
-							getString(R.string.wifi_fail_toast),
-							Toast.LENGTH_LONG).show();
-					Log.e(LOG_TAG, e.toString());
-				}
-			}
-		});
+//		btnWifi.setOnClickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View v) {
+//				try {
+//					btnWifi = (Button) viFloatingWindow.findViewById(R.id.wifi);
+//					String buttonText = (String) btnWifi.getText();
+//					String wifiText = getResources().getString(
+//							R.string.open_wifi);
+//					if (buttonText.equals(wifiText)) {
+//						wifiManager.setWifiEnabled(true);
+//						btnWifi.setText(R.string.close_wifi);
+//					} else {
+//						wifiManager.setWifiEnabled(false);
+//						btnWifi.setText(R.string.open_wifi);
+//					}
+//				} catch (Exception e) {
+//					Toast.makeText(viFloatingWindow.getContext(),
+//							getString(R.string.wifi_fail_toast),
+//							Toast.LENGTH_LONG).show();
+//					Log.e(LOG_TAG, e.toString());
+//				}
+//			}
+//		});
 	}
 
 	private class SendStatisticTask extends TimerTask {
@@ -626,22 +640,21 @@ public class BaseService extends Service {
 				}
 				// 如果cpu使用率存在且都不小于0，则输出
 				if (processCpuRatio != null && totalCpuRatio != null) {
-					txtUnusedMem.setText(getString(R.string.process_free_mem)
-							+ processMemory + "/" + freeMemoryKb + "MB");
-					txtTotalMem.setText(getString(R.string.process_overall_cpu)
-							+ processCpuRatio + "%/" + totalCpuRatio + "%");
-					String batt = getString(R.string.current) + currentBatt;
-					if ("-1".equals(allStream)) {
-						txtTraffic.setText(batt + Constants.COMMA
-								+ getString(R.string.traffic) + Constants.NA);
-					} else if (isMb)
-						txtTraffic.setText(batt + Constants.COMMA
-								+ getString(R.string.traffic)
-								+ fomart.format(trafficMb) + "MB");
-					else
-						txtTraffic.setText(batt + Constants.COMMA
-								+ getString(R.string.traffic) + allStream
-								+ "KB");
+					txtMemUsed.setText(getString(R.string.process_free_mem) +" "+ processMemory +"MB");
+					txtCpuUsed.setText(getString(R.string.process_overall_cpu) +"    "+ processCpuRatio + "%");
+					txtUpStream.setText("UpStream: "+upStream+"KB");
+					txtDownStream.setText("DownStream: "+downStream+"KB");
+//					String batt = getString(R.string.current) + currentBatt;
+//					if ("-1".equals(allStream)) {
+//						txtUpStream.setText(batt + Constants.COMMA + getString(R.string.traffic) + Constants.NA);
+//					} else if (isMb)
+//						txtUpStream.setText(batt + Constants.COMMA
+//								+ getString(R.string.traffic)
+//								+ fomart.format(trafficMb) + "MB");
+//					else
+//						txtUpStream.setText(batt + Constants.COMMA
+//								+ getString(R.string.traffic) + allStream
+//								+ "KB");
 				}
 				// 当内存为0切cpu使用率为0时则是被测应用退出
 				if ("0".equals(processMemory)) {
@@ -670,9 +683,9 @@ public class BaseService extends Service {
 	/**
 	 * update the position of floating window.
 	 */
-	private void updateViewPosition() {
-		wmParams.x = (int) (x - mTouchStartX);
-		wmParams.y = (int) (y - mTouchStartY);
+	private void updateViewPosition(int width,int height) {
+		wmParams.x = (int) (x - mTouchStartX - width/2);
+		wmParams.y = (int) (y - mTouchStartY - height/2);
 		if (viFloatingWindow != null) {
 			windowManager.updateViewLayout(viFloatingWindow, wmParams);
 		}

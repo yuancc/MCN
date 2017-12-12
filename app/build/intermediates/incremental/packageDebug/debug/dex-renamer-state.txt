@@ -1,4 +1,4 @@
-#Tue Dec 12 11:06:55 CST 2017
+#Tue Dec 12 17:17:22 CST 2017
 base.0=/Users/yuancc/Documents/tools/MCN/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 file.0=/Users/yuancc/Documents/tools/MCN/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

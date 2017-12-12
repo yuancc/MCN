@@ -19,8 +19,8 @@
     <string name="calculating">计算中...</string>
     <string name="open_wifi">开启WIFI</string>
     <string name="close_wifi">关闭WIFI</string>
-    <string name="process_free_mem">应用/剩余内存:</string>
-    <string name="process_overall_cpu">应用/总体CPU:</string>
+    <string name="process_free_mem">Memory:</string>
+    <string name="process_overall_cpu">CPU:</string>
     <string name="start_time">启动时间:</string>
     <string name="total_usage">总使用率(%)</string>
     <string name="process_package">应用包名</string>
