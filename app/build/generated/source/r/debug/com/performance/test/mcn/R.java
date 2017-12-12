@@ -73,18 +73,20 @@ public final class R {
     public static final int radio_false_1=0x7f030012;
     public static final int radio_true=0x7f030013;
     public static final int refresh=0x7f030014;
-    public static final int right_arrow=0x7f030015;
-    public static final int seekbar_thumb=0x7f030016;
-    public static final int seekbar_thumb_normal=0x7f030017;
-    public static final int seekbar_thumb_pressed=0x7f030018;
-    public static final int settings=0x7f030019;
-    public static final int settings_button=0x7f03001a;
-    public static final int settings_pressed=0x7f03001b;
-    public static final int start_test=0x7f03001c;
-    public static final int stop_test=0x7f03001d;
-    public static final int table_border=0x7f03001e;
-    public static final int test_button=0x7f03001f;
-    public static final int unchecked_icon=0x7f030020;
+    public static final int refresh_1=0x7f030015;
+    public static final int right_arrow=0x7f030016;
+    public static final int seekbar_thumb=0x7f030017;
+    public static final int seekbar_thumb_normal=0x7f030018;
+    public static final int seekbar_thumb_pressed=0x7f030019;
+    public static final int settings=0x7f03001a;
+    public static final int settings_1=0x7f03001b;
+    public static final int settings_button=0x7f03001c;
+    public static final int settings_pressed=0x7f03001d;
+    public static final int start_test=0x7f03001e;
+    public static final int stop_test=0x7f03001f;
+    public static final int table_border=0x7f030020;
+    public static final int test_button=0x7f030021;
+    public static final int unchecked_icon=0x7f030022;
   }
   public static final class id {
     public static final int Lin=0x7f040000;

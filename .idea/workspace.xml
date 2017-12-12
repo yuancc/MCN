@@ -25,12 +25,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$Viewholder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$Viewholder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestReportActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MemoryInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MemoryInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/acj8dWvLMS9R+v+TxIUSJXX6Fys=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/acj8dWvLMS9R+v+TxIUSJXX6Fys=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_refresh.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_refresh.png.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_settings.png.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi_settings.png.flat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$drawable.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$id.dex" />
@@ -38,12 +41,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$string.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$style.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$Viewholder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$Viewholder.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestReportActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestReportActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MemoryInfo.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MemoryInfo.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/refresh.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/refresh.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/settings.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/settings.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/performance/test/mcn/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/performance/test/mcn/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
@@ -51,7 +57,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -163,24 +169,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radio_button_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+            <state relative-caret-position="278">
+              <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -222,67 +215,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="float_button.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/float_button.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_button.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/test_button.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation_bar.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/navigation_bar.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPageActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPageActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="347" column="46" lean-forward="false" selection-start-line="347" selection-start-column="36" selection-end-line="347" selection-end-column="46" />
+            <state relative-caret-position="292">
+              <caret line="351" column="21" lean-forward="true" selection-start-line="351" selection-start-column="21" selection-end-line="351" selection-end-column="21" />
               <folding>
-                <element signature="e#4919#4961#0" expanded="true" />
-                <element signature="e#5348#5674#0" expanded="true" />
-                <element signature="e#5673#5674#0" expanded="true" />
-                <element signature="e#5696#5734#0" expanded="true" />
-                <element signature="e#11064#11620#0" expanded="true" />
-                <element signature="e#11619#11620#0" expanded="true" />
+                <element signature="e#4915#4957#0" expanded="true" />
+                <element signature="e#5344#5670#0" expanded="true" />
+                <element signature="e#5669#5670#0" expanded="true" />
+                <element signature="e#5692#5730#0" expanded="true" />
+                <element signature="e#5876#5985#0" expanded="true" />
+                <element signature="e#5984#5985#0" expanded="true" />
+                <element signature="e#6021#6258#0" expanded="true" />
+                <element signature="e#6257#6258#0" expanded="true" />
+                <element signature="e#9615#9616#0" expanded="true" />
+                <element signature="e#9650#9651#0" expanded="true" />
+                <element signature="e#9689#9690#0" expanded="true" />
+                <element signature="e#9721#9722#0" expanded="true" />
+                <element signature="e#9774#9775#0" expanded="true" />
+                <element signature="e#9813#9814#0" expanded="true" />
+                <element signature="e#9866#9867#0" expanded="true" />
+                <element signature="e#9890#9891#0" expanded="true" />
+                <element signature="e#11060#11616#0" expanded="true" />
+                <element signature="e#11615#11616#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2093,10 +2049,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/navigation_bar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" />
       </list>
     </option>
   </component>
@@ -2580,7 +2536,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513046222149" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513048102852" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2628,7 +2584,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513046222149" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513048102852" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2811,7 +2767,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513046222149" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513048102852" />
       </method>
     </configuration>
     <list size="1">
@@ -2870,7 +2826,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18329467" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2927,7 +2883,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -3221,35 +3177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="706" column="28" lean-forward="false" selection-start-line="706" selection-start-column="28" selection-end-line="706" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#onCreate#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;class#BatteryInfoBroadcastReceiver#0;class#BaseService#0" expanded="false" />
-            <element signature="class#BatteryInfoBroadcastReceiver#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;method#readSettingInfo#0;class#BaseService#0" expanded="false" />
-            <element signature="method#readSettingInfo#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;method#createResultCsv#0;class#BaseService#0" expanded="false" />
-            <element signature="method#createResultCsv#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;method#createFloatingWindow#0;class#BaseService#0" expanded="false" />
-            <element signature="method#createFloatingWindow#0;class#BaseService#0" expanded="false" />
-            <element signature="class#SendStatisticTask#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;method#getStartTimeFromLogcat#0;class#BaseService#0" expanded="false" />
-            <element signature="method#getStartTimeFromLogcat#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;method#isGrantedReadLogsPermission#0;class#BaseService#0" expanded="false" />
-            <element signature="method#isGrantedReadLogsPermission#0;class#BaseService#0" expanded="false" />
-            <element signature="method#updateViewPosition#0;class#BaseService#0" expanded="false" />
-            <element signature="method#closeOpenedStream#0;class#BaseService#0" expanded="false" />
-            <element signature="method#replaceFileString#0;class#BaseService#0" expanded="false" />
-            <element signature="docComment;method#getStatusBarHeight#0;class#BaseService#0" expanded="false" />
-            <element signature="method#getStatusBarHeight#0;class#BaseService#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/performance/test/mcn/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -3295,72 +3222,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="347" column="46" lean-forward="false" selection-start-line="347" selection-start-column="36" selection-end-line="347" selection-end-column="46" />
-          <folding>
-            <element signature="e#4919#4961#0" expanded="true" />
-            <element signature="e#5348#5674#0" expanded="true" />
-            <element signature="e#5673#5674#0" expanded="true" />
-            <element signature="e#5696#5734#0" expanded="true" />
-            <element signature="e#11064#11620#0" expanded="true" />
-            <element signature="e#11619#11620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainpage.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <marker date="1512979235000" expanded="false" signature="1394:1427" ph="&quot;2dp&quot;" />
-            <marker date="1512979235000" expanded="false" signature="1473:1504" ph="&quot;30dp&quot;" />
-            <marker date="1512979235000" expanded="false" signature="1551:1583" ph="&quot;30dp&quot;" />
-            <marker date="1512979235000" expanded="false" signature="1628:1658" ph="&quot;6dp&quot;" />
-            <marker date="1512979235000" expanded="false" signature="1753:1773" ph="&quot;Start Test&quot;" />
-            <marker date="1512979235000" expanded="false" signature="1862:1885" ph="&quot;16sp&quot;" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/unchecked_icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/custom_checkbox.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/float_button.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/test_button.xml">
@@ -3385,10 +3249,87 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/mainpage.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <marker date="1512979235000" expanded="false" signature="1394:1427" ph="&quot;2dp&quot;" />
+            <marker date="1512979235000" expanded="false" signature="1473:1504" ph="&quot;30dp&quot;" />
+            <marker date="1512979235000" expanded="false" signature="1551:1583" ph="&quot;30dp&quot;" />
+            <marker date="1512979235000" expanded="false" signature="1628:1658" ph="&quot;6dp&quot;" />
+            <marker date="1512979235000" expanded="false" signature="1753:1773" ph="&quot;Start Test&quot;" />
+            <marker date="1512979235000" expanded="false" signature="1862:1885" ph="&quot;16sp&quot;" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/float_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="706" column="28" lean-forward="false" selection-start-line="706" selection-start-column="28" selection-end-line="706" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#onCreate#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;class#BatteryInfoBroadcastReceiver#0;class#BaseService#0" expanded="false" />
+            <element signature="class#BatteryInfoBroadcastReceiver#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;method#readSettingInfo#0;class#BaseService#0" expanded="false" />
+            <element signature="method#readSettingInfo#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;method#createResultCsv#0;class#BaseService#0" expanded="false" />
+            <element signature="method#createResultCsv#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;method#createFloatingWindow#0;class#BaseService#0" expanded="false" />
+            <element signature="method#createFloatingWindow#0;class#BaseService#0" expanded="false" />
+            <element signature="class#SendStatisticTask#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;method#getStartTimeFromLogcat#0;class#BaseService#0" expanded="false" />
+            <element signature="method#getStartTimeFromLogcat#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;method#isGrantedReadLogsPermission#0;class#BaseService#0" expanded="false" />
+            <element signature="method#isGrantedReadLogsPermission#0;class#BaseService#0" expanded="false" />
+            <element signature="method#updateViewPosition#0;class#BaseService#0" expanded="false" />
+            <element signature="method#closeOpenedStream#0;class#BaseService#0" expanded="false" />
+            <element signature="method#replaceFileString#0;class#BaseService#0" expanded="false" />
+            <element signature="docComment;method#getStatusBarHeight#0;class#BaseService#0" expanded="false" />
+            <element signature="method#getStatusBarHeight#0;class#BaseService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/custom_checkbox.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -3398,13 +3339,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="278">
+          <caret line="29" column="26" lean-forward="false" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="351" column="21" lean-forward="true" selection-start-line="351" selection-start-column="21" selection-end-line="351" selection-end-column="21" />
+          <folding>
+            <element signature="e#4915#4957#0" expanded="true" />
+            <element signature="e#5344#5670#0" expanded="true" />
+            <element signature="e#5669#5670#0" expanded="true" />
+            <element signature="e#5692#5730#0" expanded="true" />
+            <element signature="e#5876#5985#0" expanded="true" />
+            <element signature="e#5984#5985#0" expanded="true" />
+            <element signature="e#6021#6258#0" expanded="true" />
+            <element signature="e#6257#6258#0" expanded="true" />
+            <element signature="e#9615#9616#0" expanded="true" />
+            <element signature="e#9650#9651#0" expanded="true" />
+            <element signature="e#9689#9690#0" expanded="true" />
+            <element signature="e#9721#9722#0" expanded="true" />
+            <element signature="e#9774#9775#0" expanded="true" />
+            <element signature="e#9813#9814#0" expanded="true" />
+            <element signature="e#9866#9867#0" expanded="true" />
+            <element signature="e#9890#9891#0" expanded="true" />
+            <element signature="e#11060#11616#0" expanded="true" />
+            <element signature="e#11615#11616#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>

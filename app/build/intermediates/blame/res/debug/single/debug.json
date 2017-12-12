@@ -92,6 +92,10 @@
         "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/layout/mail_settings.xml"
     },
     {
+        "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_settings_1.png.flat",
+        "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable-hdpi/settings_1.png"
+    },
+    {
         "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/layout_about.xml.flat",
         "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/layout/about.xml"
     },
@@ -150,6 +154,10 @@
     {
         "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable_seekbar_thumb.xml.flat",
         "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable/seekbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_refresh_1.png.flat",
+        "source": "/Users/yuancc/Documents/tools/MCN/app/src/main/res/drawable-hdpi/refresh_1.png"
     },
     {
         "merged": "/Users/yuancc/Documents/tools/MCN/app/build/intermediates/res/merged/debug/drawable-hdpi_bottom_bg.png.flat",

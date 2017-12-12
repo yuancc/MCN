@@ -54,7 +54,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Main Page of Emmagee
+ * Main Page of MCN
  *
  */
 public class MainPageActivity extends Activity {
@@ -157,7 +157,7 @@ public class MainPageActivity extends Activity {
 		});
 
 		nbTitle.setText(getString(R.string.choose_app_to_test));
-		ivGoBack.setImageResource(R.drawable.refresh);
+		ivGoBack.setImageResource(R.drawable.refresh);//刷新按钮
 		ivBtnSet.setImageResource(R.drawable.settings_button);
 		layBtnSet.setOnClickListener(new OnClickListener() {
 			@Override
@@ -286,7 +286,7 @@ public class MainPageActivity extends Activity {
 	/**
 	 * customizing adapter.
 	 * 
-	 * @author andrewleo
+	 * @author mcn
 	 */
 	private class ListAdapter extends BaseAdapter {
 		List<Programe> programes;
@@ -360,7 +360,7 @@ public class MainPageActivity extends Activity {
 	/**
 	 * save status of all installed processes
 	 * 
-	 * @author andrewleo
+	 * @author mcn
 	 */
 	static class Viewholder {
 		TextView txtAppName;
