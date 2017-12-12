@@ -73,7 +73,7 @@ public class MainPageActivity extends Activity {
 	private UpdateReceiver receiver;
 
 	private TextView nbTitle;
-	private ImageView ivGoBack;
+//	private ImageView ivGoBack;
 	private ImageView ivBtnSet;
 	private LinearLayout layBtnSet;
 	private Long mExitTime = (long) 0;
@@ -158,7 +158,7 @@ public class MainPageActivity extends Activity {
 		});
 
 		nbTitle.setText(getString(R.string.choose_app_to_test));
-		ivGoBack.setImageResource(R.drawable.refresh);//刷新按钮
+//		ivGoBack.setImageResource(R.drawable.refresh);//刷新按钮
 		ivBtnSet.setImageResource(R.drawable.settings_button);
 		layBtnSet.setOnClickListener(new OnClickListener() {
 			@Override
@@ -167,13 +167,13 @@ public class MainPageActivity extends Activity {
 			}
 		});
 		
-		ivGoBack.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Toast.makeText(MainPageActivity.this, R.string.update_list, Toast.LENGTH_SHORT).show();
-				la.swapItems(processInfo.getAllPackages(getBaseContext()));
-			}
-		});
+//		ivGoBack.setOnClickListener(new OnClickListener() {
+//			@Override
+//			public void onClick(View arg0) {
+//				Toast.makeText(MainPageActivity.this, R.string.update_list, Toast.LENGTH_SHORT).show();
+//				la.swapItems(processInfo.getAllPackages(getBaseContext()));
+//			}
+//		});
 		
 		receiver = new UpdateReceiver();
 		IntentFilter filter = new IntentFilter();
@@ -182,7 +182,7 @@ public class MainPageActivity extends Activity {
 	}
 
 	private void initTitleLayout() {
-		ivGoBack = (ImageView) findViewById(R.id.go_back);
+//		ivGoBack = (ImageView) findViewById(R.id.go_back);
 		nbTitle = (TextView) findViewById(R.id.nb_title);
 		ivBtnSet = (ImageView) findViewById(R.id.btn_set);
 		lstViProgramme = (ListView) findViewById(R.id.processList);
