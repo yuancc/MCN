@@ -33,7 +33,7 @@ import android.util.Log;
  */
 public class MemoryInfo {
 
-	private static final String LOG_TAG = "Emmagee-" + MemoryInfo.class.getSimpleName();
+	private static final String LOG_TAG = "MCN-" + MemoryInfo.class.getSimpleName();
 
 	private static Process process;
 

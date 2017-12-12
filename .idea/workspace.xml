@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4328d55b-0f93-4fb4-bd64-5ff0a8165e37" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -25,138 +24,35 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/AboutActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/AboutActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/AboutActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/AboutActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MailSettingsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MailSettingsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MailSettingsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MailSettingsActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MailSettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MailSettingsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$ListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$ListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$Viewholder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity$Viewholder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/MainPageActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/SettingsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$ListAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$ListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$Viewholder.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity$Viewholder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestReportActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestReportActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestReportActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/activity/TestReportActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/http/StatisticsUpload.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/http/StatisticsUpload.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/service/BaseService$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/service/BaseService$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/service/BaseService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/service/BaseService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/Constants.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/Constants.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/CpuInfo$CpuFilter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/CpuInfo$CpuFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/CpuInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/CpuInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/CustomizedAuthenticator.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/CustomizedAuthenticator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/EncryptData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/EncryptData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MailSender.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MailSender.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MemoryInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MemoryInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MyApplication.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/MyApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/ProcessInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/ProcessInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/Programe.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/Programe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/Settings.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/Settings.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/TrafficInfo.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/performance/test/mcn/utils/TrafficInfo.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/acj8dWvLMS9R+v+TxIUSJXX6Fys=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/zip-cache/acj8dWvLMS9R+v+TxIUSJXX6Fys=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_list_item.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_mainpage.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_mainpage.xml.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$drawable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$drawable.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$id.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$id.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$layout.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$string.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/R$style.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/AboutActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/AboutActivity$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/AboutActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/AboutActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MailSettingsActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MailSettingsActivity$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MailSettingsActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MailSettingsActivity$2.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MailSettingsActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MailSettingsActivity.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$2.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$3.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$4.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$ListAdapter$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$ListAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$ListAdapter.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$UpdateReceiver.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$Viewholder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity$Viewholder.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/MainPageActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$2.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$3.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$4.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$4.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$5.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$5.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$6.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity$6.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/SettingsActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$1.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$2.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$ListAdapter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$ListAdapter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$Viewholder.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity$Viewholder.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestListActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestReportActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestReportActivity$1.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestReportActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/activity/TestReportActivity.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/http/StatisticsUpload.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/http/StatisticsUpload.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/service/BaseService$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/service/BaseService$3.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/service/BaseService.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/service/BaseService.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/Constants.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/Constants.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/CpuInfo$CpuFilter.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/CpuInfo$CpuFilter.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/CpuInfo.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/CpuInfo.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/CustomizedAuthenticator.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/CustomizedAuthenticator.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/EncryptData.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/EncryptData.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MailSender.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MailSender.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MemoryInfo.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MemoryInfo.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MyApplication.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/MyApplication.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/ProcessInfo.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/ProcessInfo.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/Programe.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/Programe.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/Settings.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/Settings.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/TrafficInfo.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/21/com/performance/test/mcn/utils/TrafficInfo.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/performance/test/mcn/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/performance/test/mcn/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/AboutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/AboutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MailSettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MailSettingsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/SettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/SettingsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/TestListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/TestListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/TestReportActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/TestReportActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/service/BaseService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/service/BaseService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Constants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/CpuInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/CpuInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/CustomizedAuthenticator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/CustomizedAuthenticator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/EncryptData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/EncryptData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MailSender.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MailSender.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MyApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MyApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/ProcessInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/ProcessInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Programe.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Programe.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Settings.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Settings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/TrafficInfo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/TrafficInfo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/mainpage.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mainpage.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/navigation_bar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/navigation_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -270,8 +166,21 @@
       <file leaf-file-name="list_item.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+            <state relative-caret-position="303">
+              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="radio_button_layout.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -300,6 +209,55 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="custom_checkbox.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/custom_checkbox.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="float_button.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/float_button.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_button.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/test_button.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="navigation_bar.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/navigation_bar.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -316,8 +274,8 @@
       <file leaf-file-name="MainPageActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="152" column="84" lean-forward="false" selection-start-line="152" selection-start-column="84" selection-end-line="152" selection-end-column="84" />
+            <state relative-caret-position="315">
+              <caret line="347" column="46" lean-forward="false" selection-start-line="347" selection-start-column="36" selection-end-line="347" selection-end-column="46" />
               <folding>
                 <element signature="e#4919#4961#0" expanded="true" />
                 <element signature="e#5348#5674#0" expanded="true" />
@@ -2125,7 +2083,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/CustomizedAuthenticator.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/EncryptData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MailSender.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MyApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/ProcessInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/Programe.java" />
@@ -2137,7 +2094,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values-zh-rCN/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml" />
       </list>
     </option>
   </component>
@@ -2352,6 +2311,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MCN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -2496,13 +2485,16 @@
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="device.picker.selection" value="a1a2c21e" />
-    <property name="SearchEverywhereHistoryKey" value="SettingsActivity&#9;FILE&#9;file:///Users/yuancc/Documents/tools/MCN/app/src/main/java/com/performance/test/mcn/activity/SettingsActivity.java&#10;getversion&#9;PSI&#9;JAVA://com.performance.test.mcn.activity.AboutActivity#getVersion" />
+    <property name="device.picker.selection" value="9D79VO4SWOUCZ9S4" />
+    <property name="SearchEverywhereHistoryKey" value="MemoryInfo&#9;FILE&#9;file:///Users/yuancc/Documents/tools/MCN/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java&#10;SettingsActivity&#9;FILE&#9;file:///Users/yuancc/Documents/tools/MCN/app/src/main/java/com/performance/test/mcn/activity/SettingsActivity.java&#10;getversion&#9;PSI&#9;JAVA://com.performance.test.mcn.activity.AboutActivity#getVersion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.performance.test.mcn.http" />
       <recent name="com.performance.test.mcn.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2588,7 +2580,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512984951588" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513046222149" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2636,7 +2628,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512984951588" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513046222149" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2819,7 +2811,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1512984951589" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1513046222149" />
       </method>
     </configuration>
     <list size="1">
@@ -2867,7 +2859,7 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5069204" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34106728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34106728" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2885,7 +2877,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.49307957" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2940,37 +2932,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-19/java/sql/Time.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="223" column="23" lean-forward="false" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
@@ -3151,14 +3112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -3268,17 +3221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/service/BaseService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -3321,15 +3263,28 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/custom_checkbox.xml">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-19/android/widget/TextView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="50" />
+        <state relative-caret-position="176">
+          <caret line="227" column="13" lean-forward="false" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/utils/MemoryInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/table_border.xml">
@@ -3340,11 +3295,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-19/android/widget/TextView.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="227" column="13" lean-forward="false" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="347" column="46" lean-forward="false" selection-start-line="347" selection-start-column="36" selection-end-line="347" selection-end-column="46" />
+          <folding>
+            <element signature="e#4919#4961#0" expanded="true" />
+            <element signature="e#5348#5674#0" expanded="true" />
+            <element signature="e#5673#5674#0" expanded="true" />
+            <element signature="e#5696#5734#0" expanded="true" />
+            <element signature="e#11064#11620#0" expanded="true" />
+            <element signature="e#11619#11620#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3366,6 +3328,52 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/unchecked_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/custom_checkbox.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="107" column="40" lean-forward="false" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/float_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/test_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/navigation_bar.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -3377,33 +3385,21 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/radio_button_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="88">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/performance/test/mcn/activity/MainPageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="152" column="84" lean-forward="false" selection-start-line="152" selection-start-column="84" selection-end-line="152" selection-end-column="84" />
-          <folding>
-            <element signature="e#4919#4961#0" expanded="true" />
-            <element signature="e#5348#5674#0" expanded="true" />
-            <element signature="e#5673#5674#0" expanded="true" />
-            <element signature="e#5696#5734#0" expanded="true" />
-            <element signature="e#11064#11620#0" expanded="true" />
-            <element signature="e#11619#11620#0" expanded="true" />
-          </folding>
-        </state>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        <state relative-caret-position="303">
+          <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding />
         </state>
       </provider>
