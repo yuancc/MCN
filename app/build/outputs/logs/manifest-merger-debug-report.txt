@@ -1,12 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
-INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-57:12
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [com.android.support:design:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/6693b0a96cfa400766b5d52d1fc083e6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/c7fa5fd9f7c916d4432e8a65889f805a/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/73d1abcb3c6ed7f5f538d5f5fc59b245/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:2:1-63:12
 	package
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
@@ -25,6 +28,12 @@ uses-sdk
 ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:7:5-43
 INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:7:5-43
 INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/6693b0a96cfa400766b5d52d1fc083e6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/6693b0a96cfa400766b5d52d1fc083e6/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/c7fa5fd9f7c916d4432e8a65889f805a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/c7fa5fd9f7c916d4432e8a65889f805a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/73d1abcb3c6ed7f5f538d5f5fc59b245/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/73d1abcb3c6ed7f5f538d5f5fc59b245/AndroidManifest.xml:20:5-43
 INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:7:5-43
 INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:7:5-43
 	android:targetSdkVersion
@@ -36,7 +45,13 @@ INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:9:5-44:19
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:9:5-50:19
+MERGED from [com.android.support:design:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/6693b0a96cfa400766b5d52d1fc083e6/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/design-22.2.1.aar/6693b0a96cfa400766b5d52d1fc083e6/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/c7fa5fd9f7c916d4432e8a65889f805a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.1.aar/c7fa5fd9f7c916d4432e8a65889f805a/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/73d1abcb3c6ed7f5f538d5f5fc59b245/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/yuancc/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.1.aar/73d1abcb3c6ed7f5f538d5f5fc59b245/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:12:9-41
 	android:icon
@@ -45,101 +60,113 @@ ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:9:
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:13:9-56
 	android:name
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:10:9-68
-activity#com.performance.test.mcn.activity.MainPageActivity
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:14:9-24:20
-	android:screenOrientation
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:18:13-49
-	android:launchMode
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:17:13-48
-	android:configChanges
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:16:13-63
+activity#com.performance.test.mcn.activity.SplashActivity
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:16:13-45
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:15:13-78
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:15:13-76
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:22:27-74
-activity#com.performance.test.mcn.activity.SettingsActivity
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:25:9-29:50
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.performance.test.mcn.activity.MainPageActivity
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:24:9-28:51
 	android:screenOrientation
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:28:13-49
 	android:launchMode
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:27:13-48
-	android:theme
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:29:13-47
+	android:configChanges
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:26:13-63
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:26:13-78
-activity#com.performance.test.mcn.activity.AboutActivity
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:30:9-32:52
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:25:13-78
+activity#com.performance.test.mcn.activity.SettingsActivity
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:29:9-33:50
 	android:screenOrientation
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:32:13-49
+	android:launchMode
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:31:13-48
+	android:theme
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:33:13-47
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:31:13-75
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:30:13-78
+activity#com.performance.test.mcn.activity.AboutActivity
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:36:13-49
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:35:13-75
 activity#com.performance.test.mcn.activity.MailSettingsActivity
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:33:9-35:52
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:37:9-39:52
 	android:screenOrientation
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:35:13-49
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:39:13-49
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:34:13-82
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:38:13-82
 activity#com.performance.test.mcn.activity.TestListActivity
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:36:9-38:52
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:40:9-42:52
 	android:screenOrientation
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:38:13-49
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:42:13-49
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:37:13-78
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:41:13-78
 activity#com.performance.test.mcn.activity.TestReportActivity
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:39:9-41:52
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:9-45:52
 	android:screenOrientation
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:41:13-49
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:45:13-49
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:40:13-80
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:44:13-80
+activity#com.performance.test.mcn.activity.WelcomeGuideActivity
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:46:9-48:50
+	android:theme
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:48:13-47
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:47:13-82
 service#com.performance.test.mcn.service.BaseService
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:9-80
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:49:9-80
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:43:18-77
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:49:18-77
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:46:5-78
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:52:5-78
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:46:22-75
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:52:22-75
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:47:5-84
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:53:5-84
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:47:22-81
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:53:22-81
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:48:5-81
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:54:5-81
 	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:48:22-78
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:54:22-78
 uses-permission#android.permission.READ_LOGS
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:49:5-68
-	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:49:22-65
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:50:5-76
-	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:50:22-73
-uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:51:5-76
-	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:51:22-73
-uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:52:5-68
-	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:52:22-65
-uses-permission#android.permission.INTERNET
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:53:5-67
-	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:53:22-64
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:54:5-79
-	android:name
-		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:54:22-76
-uses-permission#android.permission.GET_TASKS
 ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:55:5-68
 	android:name
 		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:55:22-65
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:56:5-76
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:56:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:57:5-76
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:57:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:58:5-68
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:58:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:59:5-67
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:59:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:60:5-79
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:60:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:61:5-68
+	android:name
+		ADDED from /Users/yuancc/Documents/tools/MCN/app/src/main/AndroidManifest.xml:61:22-65

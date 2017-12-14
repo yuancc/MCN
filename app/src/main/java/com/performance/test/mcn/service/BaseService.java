@@ -168,12 +168,19 @@ public class BaseService extends Service {
 	private String electricity;//电量
 	private String currentBatt;//电流
 
+	//移植邮件配置
+	private static final String EMAIL_SENDER = "vcloudvod12@163.com";
+	private static final String EMAIL_PASSWORD = "Yuancc163";
+	private static final String EMAIL_SMTP = "smtp.163.com";
+
 	private String mSendName;
 	private boolean isdataRefresh = false;
 
 	private static final int mColor = 0xFF0000FF;
 	private int width;
 	private int height;
+
+	private boolean mUploadStatistic = true;
 
 	@Override
 	public void onCreate() {
@@ -252,7 +259,8 @@ public class BaseService extends Service {
 		}
 		cpuInfo = new CpuInfo(getBaseContext(), pid, Integer.toString(uid));
 		readSettingInfo();
-//		startSendStatisticTask(delaytime);
+		if(mUploadStatistic)//统计上报
+			startSendStatisticTask(delaytime);
 		if (isFloating) {
 			viFloatingWindow = LayoutInflater.from(this).inflate(
 					R.layout.floating, null);
@@ -307,15 +315,15 @@ public class BaseService extends Service {
 	private void readSettingInfo() {
 		SharedPreferences preferences = Settings
 				.getDefaultSharedPreferences(getApplicationContext());
-		int interval = preferences.getInt(Settings.KEY_INTERVAL, 5);
+		int interval = preferences.getInt(Settings.KEY_INTERVAL, 1);
 		delaytime = interval * 1000;
 		isFloating = preferences.getBoolean(Settings.KEY_ISFLOAT, true);
-		sender = preferences.getString(Settings.KEY_SENDER, BLANK_STRING);
-		password = preferences.getString(Settings.KEY_PASSWORD, BLANK_STRING);
+		sender = preferences.getString(Settings.KEY_SENDER, EMAIL_SENDER);
+		password = preferences.getString(Settings.KEY_PASSWORD, EMAIL_PASSWORD);
 		recipients = preferences.getString(Settings.KEY_RECIPIENTS,
 				BLANK_STRING);
 		receivers = recipients.split("\\s+");
-		smtp = preferences.getString(Settings.KEY_SMTP, BLANK_STRING);
+		smtp = preferences.getString(Settings.KEY_SMTP, EMAIL_SMTP);
 		isRoot = preferences.getBoolean(Settings.KEY_ROOT, false);
 		isAutoStop = preferences.getBoolean(Settings.KEY_AUTO_STOP, true);
 	}
@@ -716,7 +724,8 @@ public class BaseService extends Service {
 			viFloatingWindow = null;
 		}
 		handler.removeCallbacks(task);
-//		mSendTimer.cancel();//停止上报
+		if(mUploadStatistic)
+			mSendTimer.cancel();//停止上报
 		closeOpenedStream();
 		// replace the start time in file
 		if (!BLANK_STRING.equals(startTime)) {
@@ -730,23 +739,21 @@ public class BaseService extends Service {
 		unregisterReceiver(batteryBroadcast);
 		boolean isSendSuccessfully = false;
 		try {
-			isSendSuccessfully = MailSender.sendTextMail(sender,
-					des.decrypt(password), smtp,
-					"Emmagee Performance Test Report", "see attachment",
-					resultFilePath, receivers);
+			Log.i(LOG_TAG, "to start send email！");
+//			isSendSuccessfully = MailSender.sendTextMail(sender, password, smtp, "MCN Test Result", "look the annex", resultFilePath, receivers);
+			isSendSuccessfully = MailSender.sendTextMail(sender, password, smtp, getString(R.string.send_test_subject), "\n" +
+					"Please see the attachment for detailed test results！", resultFilePath, receivers);
 		} catch (Exception e) {
 			isSendSuccessfully = false;
 		}
 		if (isSendSuccessfully) {
-			Toast.makeText(this,
-					getString(R.string.send_success_toast) + recipients,
-					Toast.LENGTH_LONG).show();
+			Toast mSuccessToast = Toast.makeText(this, getString(R.string.send_success_toast) + recipients, Toast.LENGTH_LONG);
+			mSuccessToast.setGravity(Gravity.CENTER,0,0);
+			mSuccessToast.show();
 		} else {
-			Toast.makeText(
-					this,
-					getString(R.string.send_fail_toast)
-							+ BaseService.resultFilePath, Toast.LENGTH_LONG)
-					.show();
+			Toast mFailToast = Toast.makeText(this, getString(R.string.send_fail_toast) + BaseService.resultFilePath, Toast.LENGTH_LONG);
+			mFailToast.setGravity(Gravity.CENTER,0,0);
+			mFailToast.show();
 		}
 		super.onDestroy();
 		stopForeground(true);

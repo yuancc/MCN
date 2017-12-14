@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 22
     buildToolsVersion "27.0.0"
 
     defaultConfig {
@@ -19,9 +19,11 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:19.1.0'
+//    compile 'com.android.support:support-v4:19.1.0'
     compile files('libs/activation.jar')
     compile files('libs/additionnal.jar')
     compile files('libs/commons-io-2.5.jar')
     compile files('libs/mail.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:design:22.2.1'
 }

@@ -136,8 +136,8 @@ public class MainPageActivity extends Activity {
 //						btnTest.setText(getString(R.string.start_test));
 						btnTest.setImageResource(R.drawable.start_test);
 						isStarted = false;
-						Toast.makeText(MainPageActivity.this, getString(R.string.test_result_file_toast) + BaseService.resultFilePath,
-								Toast.LENGTH_LONG).show();
+//						Toast.makeText(MainPageActivity.this, getString(R.string.test_result_file_toast) + BaseService.resultFilePath,
+//								Toast.LENGTH_LONG).show();
 						stopService(monitorService);
 					}
 				} else {

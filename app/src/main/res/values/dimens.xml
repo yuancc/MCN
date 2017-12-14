@@ -34,5 +34,7 @@
     <dimen name="layout_marginLeft_test">30dp</dimen>
     <dimen name="layout_marginRight_test">30dp</dimen>
     <dimen name="text_size_test">16sp</dimen>
+    <dimen name="text_19dp">19dp</dimen>
+    <dimen name="text_padding">2dp</dimen>
 
 </resources>

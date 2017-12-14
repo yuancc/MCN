@@ -46,6 +46,9 @@ public class MailSettingsActivity extends Activity {
 
 	private static final String LOG_TAG = "MCN-" + MailSettingsActivity.class.getSimpleName();
 	private static final String BLANK_STRING = "";
+	private static final String EMAIL_SENDER = "vcloudvod12@163.com";
+	private static final String EMAIL_PASSWORD = "admin163";
+	private static final String EMAIL_SMTP = "smtp.163.com";
 
 	private EditText edtRecipients;
 	private EditText edtSender;
@@ -64,30 +67,30 @@ public class MailSettingsActivity extends Activity {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.mail_settings);
 
-		final EncryptData des = new EncryptData("emmagee");
+		final EncryptData des = new EncryptData("MCN");
 
 		edtSender = (EditText) findViewById(R.id.sender);
 		edtPassword = (EditText) findViewById(R.id.password);
 		edtRecipients = (EditText) findViewById(R.id.recipients);
 		edtSmtp = (EditText) findViewById(R.id.smtp);
-		title = (TextView) findViewById(R.id.nb_title);
-		LinearLayout layGoBack = (LinearLayout) findViewById(R.id.lay_go_back);
-		LinearLayout layBtnSet = (LinearLayout) findViewById(R.id.lay_btn_set);
+//		title = (TextView) findViewById(R.id.nb_title);
+//		LinearLayout layGoBack = (LinearLayout) findViewById(R.id.lay_go_back);
+//		LinearLayout layBtnSet = (LinearLayout) findViewById(R.id.lay_btn_set);
 
-		title.setText(R.string.mail_settings);
+//		title.setText(R.string.mail_settings);
 
 		SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-		sender = preferences.getString(Settings.KEY_SENDER, BLANK_STRING);
-		prePassword = preferences.getString(Settings.KEY_PASSWORD, BLANK_STRING);
+		sender = preferences.getString(Settings.KEY_SENDER, EMAIL_SENDER);
+		prePassword = preferences.getString(Settings.KEY_PASSWORD, EMAIL_PASSWORD);
 		recipients = preferences.getString(Settings.KEY_RECIPIENTS, BLANK_STRING);
-		smtp = preferences.getString(Settings.KEY_SMTP, BLANK_STRING);
+		smtp = preferences.getString(Settings.KEY_SMTP, EMAIL_SMTP);
 
 		edtRecipients.setText(recipients);
-		edtSender.setText(sender);
-		edtPassword.setText(prePassword);
-		edtSmtp.setText(smtp);
+//		edtSender.setText(sender);
+//		edtPassword.setText(prePassword);
+//		edtSmtp.setText(smtp);
 
-		layGoBack.setOnClickListener(new OnClickListener() {
+		/*layGoBack.setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
 				MailSettingsActivity.this.finish();
@@ -135,7 +138,7 @@ public class MailSettingsActivity extends Activity {
 				setResult(Activity.RESULT_FIRST_USER, intent);
 				MailSettingsActivity.this.finish();
 			}
-		});
+		});*/
 	}
 
 	@Override
